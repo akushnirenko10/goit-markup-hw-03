@@ -1,5 +1,10 @@
-.footer-logo {
+.footer {
+  background-color: var(--contrast-high);
   color: var(--surface-default);
+}
+
+.footer-logo {
+  color: inherit;
 }
 
 .footer-text {

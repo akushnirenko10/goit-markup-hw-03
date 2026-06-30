@@ -1,6 +1,11 @@
+.hero {
+  background-color: var(--contrast-high);
+}
+
 .hero-title {
   font-weight: 700;
   font-size: 56px;
   line-height: 1.07;
   color: var(--surface-primary);
+  text-align: center;
 }

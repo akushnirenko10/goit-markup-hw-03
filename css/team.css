@@ -1,0 +1,12 @@
+.team {
+  background-color: var(--surface-default);
+}
+
+.team-item {
+  background-color: var(--surface-primary);
+}
+
+.team-subtitle,
+.team-text {
+  text-align: center;
+}
