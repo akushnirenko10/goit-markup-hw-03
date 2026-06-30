@@ -35,12 +35,14 @@ body {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--text-primary);
+  background-color: var(--surface-primary);
 }
 
 .link {
   text-decoration: none;
 }
 
+ul,
 .list {
   list-style: none;
 }
@@ -65,10 +67,11 @@ body {
   color: var(--surface-primary);
   background-color: var(--brand-default);
   cursor: pointer;
+}
 
-  &:hover {
-    background-color: var(--brand-pressed);
-  }
+.modal-btn:hover,
+.modal-btn:focus {
+  background-color: var(--brand-pressed);
 }
 
 .section-title {
