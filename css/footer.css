@@ -1,0 +1,8 @@
+.footer-logo {
+  color: var(--surface-default);
+}
+
+.footer-text {
+  font-weight: 500;
+  color: var(--surface-primary);
+}

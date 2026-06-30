@@ -1,0 +1,24 @@
+.header-logo {
+  color: var(--contrast-high);
+}
+
+.nav-link {
+  font-weight: 500;
+  color: var(--contrast-high);
+
+  &:hover {
+    color: var(--brand-pressed);
+  }
+}
+
+.address {
+  font-style: normal;
+}
+
+.address-link {
+  color: inherit;
+
+  &:hover {
+    color: var(--brand-pressed);
+  }
+}
