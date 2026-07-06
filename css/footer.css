@@ -1,10 +1,18 @@
 .footer {
   background-color: var(--contrast-high);
   color: var(--surface-default);
+  padding-top: 100px;
+  padding-bottom: 100px;
 }
 
 .footer-logo {
+  display: inline-block;
   color: inherit;
+  margin-bottom: 16px;
+}
+
+.footer-description {
+  max-width: 264px;
 }
 
 .footer-text {

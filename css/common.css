@@ -29,6 +29,12 @@
   --success: var(--green);
 }
 
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+}
+
 body {
   font-family: var(--primary-font-family);
   font-size: 16px;
@@ -38,12 +44,31 @@ body {
   background-color: var(--surface-primary);
 }
 
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}
+
 .link {
   text-decoration: none;
 }
 
 ul,
 .list {
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-left: 0;
   list-style: none;
 }
 
@@ -61,6 +86,10 @@ ul,
 }
 
 .modal-btn {
+  padding: 16px 32px;
+  border: none;
+  border-radius: 4px;
+
   font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.04em;
@@ -75,6 +104,7 @@ ul,
 }
 
 .section-title {
+  margin-bottom: 72px;
   font-size: 36px;
   line-height: 1.1;
   color: var(--contrast-high);
@@ -86,4 +116,12 @@ ul,
   font-size: 20px;
   line-height: 1.2;
   color: var(--contrast-high);
+}
+
+.container {
+  max-width: 1160px;
+  margin-right: auto;
+  margin-left: auto;
+  padding-left: 15px;
+  padding-right: 15px;
 }

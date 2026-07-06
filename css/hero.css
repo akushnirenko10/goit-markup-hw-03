@@ -1,11 +1,21 @@
 .hero {
+  padding: 188px 331px 200px;
   background-color: var(--contrast-high);
 }
 
 .hero-title {
+  max-width: 496px;
   font-weight: 700;
   font-size: 56px;
   line-height: 1.07;
   color: var(--surface-primary);
   text-align: center;
+  margin-right: auto;
+  margin-left: auto;
+  margin-bottom: 48px;
+}
+
+.hero .modal-btn {
+  display: block;
+  margin: 0 auto;
 }
