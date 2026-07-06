@@ -1,10 +1,10 @@
 .features-list {
   display: flex;
-  gap: 20px;
+  gap: 24px;
 }
 
 .features-item {
-  flex-basis: calc((100% - 60px) / 4);
+  flex-basis: calc((100% - 72px) / 4);
 }
 
 .features .subtitle {
