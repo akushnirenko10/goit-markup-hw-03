@@ -36,6 +36,7 @@
 }
 
 body {
+  margin: 0;
   font-family: var(--primary-font-family);
   font-size: 16px;
   line-height: 1.5;
@@ -119,9 +120,27 @@ ul,
 }
 
 .container {
-  max-width: 1160px;
+  max-width: 1158px;
   margin-right: auto;
   margin-left: auto;
   padding-left: 15px;
   padding-right: 15px;
+}
+
+.section {
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
+
+.sr-only {
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  border: 0;
+  padding: 0;
+  clip: rect (0 0 0 0);
+  clip-path: inset (100%);
+  margin: -1px;
 }

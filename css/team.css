@@ -1,7 +1,5 @@
 .team {
   background-color: var(--surface-default);
-  padding-top: 120px;
-  padding-bottom: 120px;
 }
 
 .team-list {
@@ -16,6 +14,7 @@
 
 .team-content-wrapper {
   padding: 32px 16px;
+  border-radius: 0 0 4px 4px;
 }
 
 .team-subtitle,
